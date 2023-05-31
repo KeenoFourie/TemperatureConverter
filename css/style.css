@@ -1,0 +1,83 @@
+body {
+    background-color: orangered;
+    text-align: center;
+    margin: auto;
+    font-family: cursive;
+}
+
+.container-fluid {
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 3rem;
+    width: 20rem;
+    padding: 2rem;
+    margin-top: 7%;
+    box-shadow: 10px 10px;
+}
+
+.celsius {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+
+.fahrenheit {
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+input {
+    margin: 1.5rem;
+}
+
+#input_Fahrenheit_amount {
+    background-color: transparent;
+    font-size: medium;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+}
+
+#input_Celsius_amount {
+    background-color: transparent;
+    font-size: medium;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+}
+
+#calculate_1 {
+    background-color: purple;
+    font-size: medium;
+    border-radius: 1rem;
+    box-shadow: 2px 2px;
+}
+
+#calculate_2 {
+    background-color: purple;
+    font-size: medium;
+    border-radius: 1rem;
+    box-shadow: 2px 2px;
+}
+
+#output_display_1 {
+    border-radius: 2rem;
+    background-color: purple;
+    font-size: x-large;
+    font-weight: 700;
+    margin: 1.5rem;
+    box-shadow: 4px 4px;
+}
+
+#output_display_2 {
+    border-radius: 2rem;
+    background-color: purple;
+    font-size: x-large;
+    font-weight: 700;
+    margin: 1.5rem;
+    box-shadow: 4px 4px;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.396);
+}
